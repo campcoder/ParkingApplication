@@ -1,0 +1,124 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+.mapform {
+  display: flex;
+}
+.dateandtime {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 20px;
+  align-items: center;
+}
+.parkingperiodHeader {
+  position: relative;
+  left: 0px;
+  font-family: "Roboto", sans-serif;
+  color: #141629;
+  text-transform: uppercase;
+  font-size: 15.5px;
+}
+.radiodiv {
+  position: absolute;
+  top: 26.8rem;
+  left: 35rem;
+}
+.radioheader {
+  position: relative;
+  left: 0px;
+  font-family: "Roboto", sans-serif;
+  color: #141629;
+  text-transform: uppercase;
+  font-size: 15.5px;
+  padding-bottom: 15px;
+}
+.dateandtime1 {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: white;
+  max-width: fit-content;
+}
+.dateandtime2 {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.radio {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.radio__input {
+  display: none;
+}
+.radio__radio {
+  width: 1.25em;
+  height: 1.25em;
+  border: 2px solid #d8e4e2;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-sizing: border-box;
+  padding: 2px;
+}
+.radio__radio::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: #009879;
+  border-radius: 50%;
+  transform: scale(0);
+}
+.radio__input:checked + .radio__radio::after {
+  transform: scale(1);
+}
+.carimage {
+  height: 28px;
+  width: 30px;
+  margin-right: 15px;
+}
+.bikeimage {
+  height: 28px;
+  width: 30px;
+  margin-right: 15px;
+}
+.btn-three {
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+}
+.buynow {
+  position: absolute;
+  top: 29rem;
+  right: 12rem;
+  padding: 20px;
+  font-family: "arial";
+  font-size: 18px;
+  font-weight: lighter;
+  background-color: #141629;
+  width: 260px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  transition-property: box-shadow, transform;
+}
+.buynow:hover,
+.buynow:focus,
+.buynow:active {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+  transform: scale(1.1);
+}
+.nopark {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: black;
+}

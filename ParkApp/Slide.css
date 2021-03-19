@@ -1,0 +1,28 @@
+.slidediv {
+  display: flex;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  margin-top: 100px;
+}
+.slideimage {
+  position: absolute;
+  left: 20rem;
+  opacity: 1;
+}
+.slideheader {
+  position: absolute;
+  top: 1rem;
+  text-transform: uppercase;
+}
+.address {
+  position: absolute;
+  top: 8rem;
+  right: 34rem;
+  font-weight: bolder;
+  color: rgb(180, 247, 255);
+  font-size: 50px;
+  font-family: Goudy Old Style;
+  text-transform: uppercase;
+}
